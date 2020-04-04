@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
-
+import Image from 'react-bootstrap/Image'
 function Content() {
   return (
-    <div className="App">
-     <h1>Site content</h1>
-    </div>
+
+
+      <Image src="https://jstack.ru/img/GatsbyReact/react.jpeg" fluid />
   );
 }
 
