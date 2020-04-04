@@ -4,7 +4,8 @@ import Form from 'react-bootstrap/Form';
 import {Button, Container} from 'react-bootstrap';
 
 let res = 10;
-let numberOFBtn = []
+
+// let numberOFBtn = []
 function HW3(props) {
 
     const [todo, setTodo] = useState(10);
@@ -39,11 +40,12 @@ function HW3(props) {
                 {/*{input}MAX <input type='text'  onChange = {todoField2}/>*/}
 
                 <Form className="border border-primary">
-                    {numberOFBtn.map(el => (<Button key = 'index'className='Btn' onClick={() => todoChange(-el)}> {-el} </Button>))}
+                    {/*{numberOFBtn.map(el => (<Button key = 'index'className='Btn' onClick={() => todoChange(-el)}> {-el} </Button>))}*/}
                     <Button className='Btn' onClick={() => todoChange(-3)}> -3 </Button>
                     <Button onClick={() => todoChange(-2)}> -2 </Button>
                     <Button onClick={() => todoChange(-1)}> -1 </Button>
-                    <Button className='res' variant="secondary" size="lg" onClick={() => todoChange(res = 0)} > {todo} </Button>
+                    <Button className='res' variant="secondary" size="lg"
+                            onClick={() => todoChange(res = 0)}> {todo} </Button>
                     <Button onClick={() => todoChange(+1)}> +1 </Button>
                     <Button onClick={() => todoChange(+2)}> +2 </Button>
                     <Button onClick={() => todoChange(+3)}> +3 </Button>
