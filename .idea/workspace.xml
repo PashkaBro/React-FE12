@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6b3b463-405d-4601-bcd2-060059e643f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/hw3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/hw3.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +42,18 @@
       <recent name="$PROJECT_DIR$/src/elements" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -58,6 +66,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,7 +97,7 @@
       <workItem from="1585506431318" duration="8000" />
       <workItem from="1585506797838" duration="9000" />
       <workItem from="1585507414542" duration="67000" />
-      <workItem from="1585507682993" duration="35618000" />
+      <workItem from="1585507682993" duration="35882000" />
     </task>
     <servers />
   </component>
@@ -85,21 +109,21 @@
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="185" y="435" key="GitCloneDialog/0.23.1680.972@0.23.1680.972" timestamp="1585506140491" />
-    <state width="857" height="262" key="GridCell.Tab.0.bottom" timestamp="1586024190058">
+    <state width="857" height="262" key="GridCell.Tab.0.bottom" timestamp="1586024514667">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state width="857" height="262" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1586024190058" />
-    <state width="857" height="262" key="GridCell.Tab.0.center" timestamp="1586024190058">
+    <state width="857" height="262" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1586024514667" />
+    <state width="857" height="262" key="GridCell.Tab.0.center" timestamp="1586024514666">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state width="857" height="262" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1586024190058" />
-    <state width="857" height="262" key="GridCell.Tab.0.left" timestamp="1586024190057">
+    <state width="857" height="262" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1586024514666" />
+    <state width="857" height="262" key="GridCell.Tab.0.left" timestamp="1586024514666">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state width="857" height="262" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1586024190057" />
-    <state width="857" height="262" key="GridCell.Tab.0.right" timestamp="1586024190058">
+    <state width="857" height="262" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1586024514666" />
+    <state width="857" height="262" key="GridCell.Tab.0.right" timestamp="1586024514667">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state width="857" height="262" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1586024190058" />
+    <state width="857" height="262" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1586024514667" />
   </component>
 </project>
