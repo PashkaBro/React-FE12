@@ -7,7 +7,7 @@ import {Nav} from 'react-bootstrap'
 function Footer(props) {
     return (
 
-        <Navbar bg='dark' variant='dark' sticky='bottom'>
+        <Navbar bg='dark' variant='dark' fixed='bottom'>
             <Nav>
                 <Nav.Link href="#home">{props.menu[1]}</Nav.Link>
                 <Nav.Link href="#features">{props.menu[2]}</Nav.Link>

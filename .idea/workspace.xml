@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6b3b463-405d-4601-bcd2-060059e643f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elements/Calc.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/hw3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/countFields.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -42,8 +48,18 @@
       <recent name="$PROJECT_DIR$/src/elements" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -76,10 +92,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +125,7 @@
       <workItem from="1585506431318" duration="8000" />
       <workItem from="1585506797838" duration="9000" />
       <workItem from="1585507414542" duration="67000" />
-      <workItem from="1585507682993" duration="35882000" />
+      <workItem from="1585507682993" duration="72200000" />
     </task>
     <servers />
   </component>
@@ -109,21 +137,29 @@
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="185" y="435" key="GitCloneDialog/0.23.1680.972@0.23.1680.972" timestamp="1585506140491" />
-    <state width="857" height="262" key="GridCell.Tab.0.bottom" timestamp="1586024514667">
+    <state width="1659" height="262" key="GridCell.Tab.0.bottom" timestamp="1586052993529">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state width="857" height="262" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1586024514667" />
-    <state width="857" height="262" key="GridCell.Tab.0.center" timestamp="1586024514666">
+    <state width="1659" height="262" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1586052993529" />
+    <state width="1659" height="262" key="GridCell.Tab.0.center" timestamp="1586052993526">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state width="857" height="262" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1586024514666" />
-    <state width="857" height="262" key="GridCell.Tab.0.left" timestamp="1586024514666">
+    <state width="1659" height="262" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1586052993526" />
+    <state width="1659" height="262" key="GridCell.Tab.0.left" timestamp="1586052993525">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state width="857" height="262" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1586024514666" />
-    <state width="857" height="262" key="GridCell.Tab.0.right" timestamp="1586024514667">
+    <state width="1659" height="262" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1586052993525" />
+    <state width="1659" height="262" key="GridCell.Tab.0.right" timestamp="1586052993528">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state width="857" height="262" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1586024514667" />
+    <state width="1659" height="262" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1586052993528" />
+    <state x="341" y="148" key="SettingsEditor" timestamp="1586049191106">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="341" y="148" key="SettingsEditor/0.23.1680.972@0.23.1680.972" timestamp="1586049191106" />
+    <state x="611" y="416" key="git4idea.ui.GitStashDialog" timestamp="1586039025842">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="611" y="416" key="git4idea.ui.GitStashDialog/0.23.1680.972@0.23.1680.972" timestamp="1586039025842" />
   </component>
 </project>

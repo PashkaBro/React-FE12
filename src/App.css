@@ -1,9 +1,9 @@
 .App {
-    background-color: #282c34;
+    background-image: url("https://images.opencollective.com/react-firebase-starter/c636859/background.png");
+    min-height: 100vh;
     text-align: center;
     display: block;
     color: white;
-    justify-content: center;
     box-sizing: content-box;
     margin: auto;
 
@@ -16,18 +16,51 @@
     }
 }
 
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: crimson;
+}
 
+.danger{
+    color: crimson;
+}
 .Cont {
+    text-align: center;
     color: white;
-    background-color: #282c34;
-    justify-content: center;
-    margin: 26px;
-    padding: 3px;
-    border: azure;
+    /*background-color: #282c34;*/
+    margin-bottom:  0px;
+    position: center;
+    left: 50%;
+
+}
+
+.Cont2 {
+    text-align: center;
+    color: white;
+    /*background-color: #282c34;*/
+    margin-bottom: 60px;
+    position: center;
+    left: 50%;
+
+}
+
+.inputForm {
+    text-align: left;
+    color: white;
+    margin: 0px;
+    position: static;
+    padding-top: 20px ;
+
+
 }
 
 .btn {
     margin: 15px;
+    position: static;
+
 }
 
 .res {
