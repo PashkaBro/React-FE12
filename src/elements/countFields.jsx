@@ -4,7 +4,6 @@ import Form from 'react-bootstrap/Form';
 import {Button, Container} from 'react-bootstrap';
 import Calc from "./Calc";
 
-let warning;
 let numberOfLines = [];
 
 function CountFields(props) {
@@ -21,13 +20,13 @@ function CountFields(props) {
 
     const todoSend = (x) => {
         if (x) {
-            setSend(numberOfLines.push(x))
+            numberOfLines.push(x);
             setAlert(<h9 text-align='left'>'click on result btn to reset value'</h9>)
         } else {
             setAlert(<h1 className='danger'>'Please enter some number'</h1>)
         }
 
-    }
+    };
 
 
     return (
